@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aretes Gota",
+        "precio": 7000,
+        "desc": "sobrios y casuales",
+        "categoria": "aretes",
+        "imagen": "arete_gotas.png"
+    },
+    {
+        "nombre": "Aretes libelulas y tortugas",
+        "precio": 12000,
+        "desc": "Material: Cover Gold y Rodio",
+        "categoria": "aretes",
+        "imagen": "aretes_tortugas_libelulas.png",
+        "id": 2
+    },
+    {
+        "nombre": "Aretes de Osos y Coronas",
+        "precio": 10000,
+        "desc": "Rodio Garantizado",
+        "categoria": "aretes",
+        "imagen": "aretes_osos_coronas.png",
+        "id": 3
+    },
+    {
+        "nombre": "Aretes Mariquita",
+        "precio": 12000,
+        "desc": "Topitos mariquita en acero garantizado",
+        "categoria": "aretes",
+        "imagen": "aretes_mariquitas.png",
+        "id": 5
+    },
+    {
+        "nombre": "Aretes de topito",
+        "precio": 3000,
+        "desc": "Dise\u00f1os disponibles: corazones, mariposas, flores y circulos",
+        "categoria": "aretes",
+        "imagen": "carton_aretes.png",
+        "id": 6
+    },
+    {
+        "nombre": "Aretes semilargos",
+        "precio": 8000,
+        "desc": "Cover Gold y fantasia",
+        "categoria": "aretes",
+        "imagen": "aretes_semilargos.png",
+        "id": 7
+    },
+    {
+        "nombre": "Aretes largos",
+        "precio": 14000,
+        "desc": "Dise\u00f1os elegantes con aire a naturaleza",
+        "categoria": "aretes",
+        "imagen": "aretes_largos.png",
+        "id": 8
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Hello Kitty, corazones y aros de acero garantizado",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_aretes_collar.png",
+        "id": 9
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Libelula y mariposas en acero garantizado",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mariposas_libelulas.png",
+        "id": 10
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Tornasol - gatos en acero garantizado",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_gatos.png",
+        "id": 11
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Mariquitas y mariposas",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mariquita_mariposa.png",
+        "id": 12
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Accesorio mano de Fatima",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mano_fatima.png",
+        "id": 13
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Arbol de vida y bicicletas",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_arbol_bicicleta.png",
+        "id": 14
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 12000,
+        "desc": "Gaticas y corazones flechados",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_gatos_corazones.png",
+        "id": 15
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 20000,
+        "desc": "Aretes y collar de \u00d3valos",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_ovalos.png",
+        "id": 16
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 20000,
+        "desc": "Collar y aretes de fantasia Cover Gold - Mariposa",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mariposa_fantasia.png",
+        "id": 17
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 20000,
+        "desc": "Ositos",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_osos.png",
+        "id": 18
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 20000,
+        "desc": "Gatos en acero garantizado",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_de_gatos.png",
+        "id": 19
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "Conjunto de Mandala",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mandala.png",
+        "id": 20
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "Fresas en Cover Golden",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_fresas.png",
+        "id": 21
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "Mariposas en acero garantizado",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_mariposas.png",
+        "id": 22
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "El viajero",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_avion.png",
+        "id": 23
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "Accesorios de la medalla milagrosa",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_virgen.png",
+        "id": 24
+    },
+    {
+        "nombre": "Conjunto de aretes y collar",
+        "precio": 30000,
+        "desc": "Tiernos gatos animados",
+        "categoria": "conjuntos",
+        "imagen": "conjunto_gatos_luna.jpg",
+        "id": 25
+    },
+    {
+        "nombre": "Cajas",
+        "precio": 3000,
+        "desc": "Lleva una linda caja para un bello detalle",
+        "categoria": "conjuntos",
+        "imagen": "cajas.jpg",
+        "id": 26
+    }
+]

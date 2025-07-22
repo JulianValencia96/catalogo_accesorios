@@ -1,0 +1,11 @@
+body{
+    background-image: url('../img/fondo.jpg');    
+}
+
+
+h1{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold 700px;
+  font-style: normal;
+}

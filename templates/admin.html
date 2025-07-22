@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../static/img/logo.png">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <title>ADMIN</title>
+</head>
+<body>
+    <h1 class="text-center container-fluid bg-secondary-subtle my-4 py-3">Gestión de Productos <img src="../static/img/logo.png" width="120" alt="logo accesorios floribeth"> </h1>
+    <form id="formulario" class="mx-2 my-2">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required>
+        <input type="number" id="precio" placeholder="Precio del producto" required>
+        <input type="text" id="descripcion" placeholder="Descripcion del producto" required>
+        <select id="categoria">
+            <option selected>Escoje una categoria</option>
+            <option value="aretes">Aretes</option>
+            <option value="collares">Collares</option>
+            <option value="conjuntos">Conjuntos</option>
+        </select>
+        <input type="text" id="imagen" placeholder="imagen del producto" required>
+        <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+    <input type="button" onclick="cargarProductos()" value="Mostrar" class="btn btn-info"> <a href="/" class="text-decoration-none"><i class="bi bi-arrow-left-circle-fill"></i> Volver</a>
+    <div id="tabla"></div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
