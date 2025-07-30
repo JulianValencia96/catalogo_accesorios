@@ -9,3 +9,7 @@ h1{
   font-weight: bold 700px;
   font-style: normal;
 }
+
+a{
+  text-decoration: none;
+}

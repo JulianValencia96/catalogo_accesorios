@@ -5,7 +5,7 @@ function validarIngreso(){
     const usuario = prompt("Ingrese usuario administrador");
     const pwd = prompt("Ingrese contraseña");
 
-    if(usuario == "editor_ctg_25" && pwd=="accesorios_789"){
+    if(usuario == "flory123" && pwd=="romero456"){
         alert("Bienvenido admin - podrás ingresar, ver, eliminar y editar información desde aqui")
         window.location.replace("/admin");
     }else{

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Aretes Gota",
+        "nombre": "Aretes de Gota",
         "precio": 7000,
         "desc": "sobrios y casuales",
         "categoria": "aretes",
@@ -32,7 +32,7 @@
         "id": 5
     },
     {
-        "nombre": "Aretes de topito",
+        "nombre": "Aretes de Topito",
         "precio": 3000,
         "desc": "Dise\u00f1os disponibles: corazones, mariposas, flores y circulos",
         "categoria": "aretes",
