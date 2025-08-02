@@ -1,17 +1,4 @@
-# from flask import Flask, render_template, request, redirect, url_for, session, jsonify
-# import json
-# import os
-# import logging
 
-# from werkzeug.utils import secure_filename
-# from datetime import datetime
-
-# # logging.basicConfig(level=logging.INFO)
-
-# app = Flask(__name__)
-# app.secret_key = 'passwd123' #necesario para el carrito
-
-# DB_FILE = 'productos.json'
 
 
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify
@@ -105,6 +92,27 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB máximo
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
+
+@app.route('/get-products')
+def get_products():
+    token = os.getenv("GITHUB_TOKEN")
+    repo_url = "https://api.github.com/repos/JulianValencia96/catalogo_accessorios/contents/productos.json"
+    
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    response = requests.get(repo_url, headers=headers)
+    if response.status_code == 200:
+        file_data = response.json()
+        # Decodifica el contenido base64
+        content_decoded = base64.b64decode(file_data["content"]).decode("utf-8")
+        products = json.loads(content_decoded)  # Convierte a JSON
+        return jsonify(products)
+    else:
+        return jsonify({"error": "No se pudo obtener el archivo"}), 500
+
 
 @app.route('/cargarImgs')
 def imgSubidas():
