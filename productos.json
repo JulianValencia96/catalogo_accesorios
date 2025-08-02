@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Aretes de Gota",
         "precio": 7000,
-        "desc": "sobrios y casuales",
+        "desc": "Sobrios y Casuales",
         "categoria": "aretes",
         "imagen": "arete_gotas.png"
     },
@@ -40,7 +40,7 @@
         "id": 6
     },
     {
-        "nombre": "Aretes semilargos",
+        "nombre": "Aretes Semilargos",
         "precio": 8000,
         "desc": "Cover Gold y fantasia",
         "categoria": "aretes",
